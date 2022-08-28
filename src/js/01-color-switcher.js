@@ -3,7 +3,7 @@ const startEl = document.querySelector('button[data-start]');
 const stopEl = document.querySelector('button[data-stop]');
 stopEl.disabled = true;
 let intervalID = null;
-// 123
+
 const randomBodyColorGenerator = {
   DELAY: 1000,
 
